@@ -1,0 +1,35 @@
+MATRIX SIZE :: 2000
+LOOP ORDER :: i j k
+EXECUTION TIME :: 16869866 µs
+======================
+
+MATRIX SIZE :: 2000
+LOOP ORDER :: i k j
+EXECUTION TIME :: 10819688 µs
+======================
+
+MATRIX SIZE :: 2000
+LOOP ORDER :: j i k
+EXECUTION TIME :: 16596453 µs
+======================
+
+MATRIX SIZE :: 2000
+LOOP ORDER :: j k i
+EXECUTION TIME :: 17120928 µs
+======================
+
+MATRIX SIZE :: 2000
+LOOP ORDER :: k i j
+EXECUTION TIME :: 10902151 µs
+======================
+
+MATRIX SIZE :: 2000
+LOOP ORDER :: k j i
+EXECUTION TIME :: 17184791 µs
+======================
+
+MATRIX SIZE :: 1000
+STRASSESN'S :: 
+EXECUTION TIME :: 170970354 µs
+======================
+

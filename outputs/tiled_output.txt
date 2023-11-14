@@ -1,0 +1,15 @@
+MATRIX SIZE :: 2000
+TILED NO THREADING, LOOP ORDER :: j k i
+EXECUTION TIME :: 12868215 µs
+======================
+
+MATRIX SIZE :: 2000
+TILED NO THREADING, LOOP ORDER :: j k i
+EXECUTION TIME :: 22175463 µs
+======================
+
+MATRIX SIZE :: 2048
+TILED NO THREADING, LOOP ORDER :: j k i
+EXECUTION TIME :: 405 µs
+======================
+

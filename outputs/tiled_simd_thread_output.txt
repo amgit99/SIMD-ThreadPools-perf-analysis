@@ -1,0 +1,5 @@
+MATRIX SIZE :: 2048
+TILED NO THREADING, LOOP ORDER :: j k i
+EXECUTION TIME :: 289094 µs
+======================
+

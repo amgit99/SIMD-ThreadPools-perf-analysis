@@ -1,0 +1,11 @@
+ARRAY SIZE :: 20000
+OUTPUT :: 10000
+EXECUTION TIME WITHOUT SIMD :: 35 µs
+======================
+
+Hello Intrinsics !!
+ARRAY SIZE :: 20000
+OUTPUT 10000
+EXECUTION TIME WITH SIMD :: 47 µs
+======================
+

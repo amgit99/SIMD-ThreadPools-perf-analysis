@@ -1,0 +1,5 @@
+MATRIX SIZE :: 2000
+STRASSESN'S :: 
+EXECUTION TIME :: 207 µs
+======================
+

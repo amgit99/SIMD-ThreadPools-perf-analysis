@@ -4,8 +4,8 @@
 
 using namespace std;
 
-#define MAT_SIZE 2048
-#define TILE_SIZE 256
+const int MAT_SIZE = 2048;
+int TILE_SIZE = 512;
 int A[MAT_SIZE][MAT_SIZE];
 int B[MAT_SIZE][MAT_SIZE];
 int C[MAT_SIZE][MAT_SIZE];
@@ -83,11 +83,13 @@ public:
     }
 };
 
-int main(){
+int main(int argc, char* argv[]){
 	#ifndef ONLINE_JUDGE
 	freopen("./outputs/input.txt", "r", stdin);
-    freopen("./outputs/tiled_simd_thread_output.txt", "w", stdout);
+    freopen("./outputs/tiled_simd_thread_output.txt", "a", stdout);
     #endif
+
+	TILE_SIZE = stoi(argv[1]);
 
 	auto start = chrono::high_resolution_clock::now();
 

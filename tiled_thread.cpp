@@ -3,8 +3,8 @@
 
 using namespace std;
 
-#define MAT_SIZE 2048
-#define TILE_SIZE 512
+const int MAT_SIZE = 2048;
+int TILE_SIZE = 512;
 int A[MAT_SIZE][MAT_SIZE];
 int B[MAT_SIZE][MAT_SIZE];
 int C[MAT_SIZE][MAT_SIZE];
@@ -73,12 +73,13 @@ public:
     }
 };
 
-int main(){
+int main(int argc, char* argv[]){
 	#ifndef ONLINE_JUDGE
 	freopen("./outputs/input.txt", "r", stdin);
-    freopen("./outputs/tiled_thread_output.txt", "w", stdout);
+    freopen("./outputs/tiled_thread_output.txt", "a", stdout);
     #endif
 
+	TILE_SIZE = stoi(argv[1]);
 
 	ThreadPool<pair<int,int>> tp(8);
 	// tp.runAll();
@@ -97,7 +98,8 @@ int main(){
 	auto stop = chrono::high_resolution_clock::now();
 
 	cout << "MATRIX SIZE :: " << MAT_SIZE << endl;
-	cout << "TILED NO THREADING, LOOP ORDER :: " << "j k i" << endl;
+	cout << "TILE SIZE :: " << TILE_SIZE << endl;
+	cout << "TILED WITH THREADING, LOOP ORDER :: " << "j k i" << endl;
 	cout << "EXECUTION TIME :: " << chrono::duration_cast<chrono::microseconds>(stop - start).count() << " µs";
 	cout << "\n======================\n\n";
 

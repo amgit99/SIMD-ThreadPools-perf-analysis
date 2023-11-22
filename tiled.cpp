@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 
-#define n 2000
+#define n 2048
 
 using namespace std;
 
@@ -10,12 +10,13 @@ int C[n][n];
 
 int tile_size = 32;
 
-int main(){
-
+int main(int argc, char* argv[]){
 	#ifndef ONLINE_JUDGE
 	freopen("./outputs/input.txt", "r", stdin);
     freopen("./outputs/tiled_output.txt", "a", stdout);
     #endif
+
+	tile_size = stoi(argv[1]);
 
 	auto start = chrono::high_resolution_clock::now();
 
@@ -30,15 +31,11 @@ int main(){
             }
         }
     }
-	
-	// for(int k=0; k < n ; ++k)
-	// 	for(int j=0; j < n ; ++j)
-	// 		for(int i=0; i < n ; ++i)
-	// 			C[i][j] += A[i][k]*B[k][j];
 
 	auto stop = chrono::high_resolution_clock::now();
 
 	cout << "MATRIX SIZE :: " << n << endl;
+	cout << "TILE SIZE :: " << tile_size << endl;
 	cout << "TILED NO THREADING, LOOP ORDER :: " << "j k i" << endl;
 	cout << "EXECUTION TIME :: " << chrono::duration_cast<chrono::microseconds>(stop - start).count() << " µs";
 	cout << "\n======================\n\n";

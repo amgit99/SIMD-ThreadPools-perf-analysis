@@ -1,5 +1,50 @@
 MATRIX SIZE :: 2048
 TILED NO THREADING, LOOP ORDER :: j k i
-EXECUTION TIME :: 289094 µs
+EXECUTION TIME :: 309369 µs
+======================
+
+MATRIX SIZE :: 2048
+TILED NO THREADING, LOOP ORDER :: j k i
+EXECUTION TIME :: 294222 µs
+======================
+
+MATRIX SIZE :: 2048
+TILED NO THREADING, LOOP ORDER :: j k i
+EXECUTION TIME :: 293910 µs
+======================
+
+MATRIX SIZE :: 2048
+TILED NO THREADING, LOOP ORDER :: j k i
+EXECUTION TIME :: 302032 µs
+======================
+
+MATRIX SIZE :: 2048
+TILED NO THREADING, LOOP ORDER :: j k i
+EXECUTION TIME :: 286062 µs
+======================
+
+MATRIX SIZE :: 2048
+TILED NO THREADING, LOOP ORDER :: j k i
+EXECUTION TIME :: 290385 µs
+======================
+
+MATRIX SIZE :: 2048
+TILED NO THREADING, LOOP ORDER :: j k i
+EXECUTION TIME :: 292434 µs
+======================
+
+MATRIX SIZE :: 2048
+TILED NO THREADING, LOOP ORDER :: j k i
+EXECUTION TIME :: 309686 µs
+======================
+
+MATRIX SIZE :: 2048
+TILED NO THREADING, LOOP ORDER :: j k i
+EXECUTION TIME :: 384494 µs
+======================
+
+MATRIX SIZE :: 2048
+TILED NO THREADING, LOOP ORDER :: j k i
+EXECUTION TIME :: 1367554 µs
 ======================
 
